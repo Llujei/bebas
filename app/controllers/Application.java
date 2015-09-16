@@ -119,7 +119,7 @@ public class Application extends Controller {
 		List<news> filtered = new ArrayList<news>();
 		
 		for(int i = 0; i < 7 ; i++){
-			filtered.add(newsList.get(i));
+			filtered.add(newsList.get(i))
 		}
 
 		return ok(Json.toJson(filtered));
